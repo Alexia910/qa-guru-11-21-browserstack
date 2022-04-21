@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 import static io.qameta.allure.Allure.step;
 
-public class HomeWorkTest {
+public class HomeWorkTest extends TestBase{
     @Test
     void searchTest() {
         step("Skip first screen", () ->
